@@ -1,17 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import DragAndDropCanvas from './components/DragAndDropCanvas';
+import DraggableItemsMenu from './components/DraggableItemsMenu';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-      <div>
-      </div>
-    </>
-  )
-}
+    <div className="App">
+      <h1>Portfolio Builder</h1>
+      <div>Static Content for Debugging</div> {/* Simple static content */}
+    </div>
+  );
+};
 
-export default App
+export default App;
+
